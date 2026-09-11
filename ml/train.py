@@ -207,7 +207,10 @@ def train_for_group(blood_group: str, data_path: str, test_days: int, val_days: 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data", default=os.path.join(os.path.dirname(__file__), "supply_data.csv"))
+    parser.add_argument(
+    "--data",
+    default=os.path.join(os.path.dirname(__file__), "..", "data", "real", "supply_data.csv")
+)
     parser.add_argument("--test-days", type=int, default=60)
     parser.add_argument("--val-days", type=int, default=60)
     args = parser.parse_args()

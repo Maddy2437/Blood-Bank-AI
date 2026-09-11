@@ -79,7 +79,10 @@ def forecast_group(blood_group: str, data_path: str, horizon: int) -> pd.DataFra
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data", default=os.path.join(os.path.dirname(__file__), "supply_data.csv"))
+    parser.add_argument(
+    "--data",
+    default=os.path.join(os.path.dirname(__file__), "..", "data", "real", "supply_data.csv")
+)
     parser.add_argument("--horizon", type=int, default=14, choices=range(1, 31))
     args = parser.parse_args()
 
