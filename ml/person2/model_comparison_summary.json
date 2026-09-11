@@ -1,0 +1,354 @@
+{
+  "A": {
+    "blood_group": "A",
+    "best_model": "XGBoost",
+    "results": {
+      "Baseline_NaiveLag1": {
+        "val": {
+          "MAE": 200.917,
+          "RMSE": 257.167,
+          "MAPE_%": 63.354,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test": {
+          "MAE": 177.917,
+          "RMSE": 226.743,
+          "MAPE_%": 53.762,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "Baseline_MovingAvg7": {
+        "val": {
+          "MAE": 146.298,
+          "RMSE": 184.343,
+          "MAPE_%": 46.879,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test": {
+          "MAE": 126.433,
+          "RMSE": 155.262,
+          "MAPE_%": 36.179,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "RandomForest": {
+        "val": {
+          "MAE": 60.84,
+          "RMSE": 84.585,
+          "MAPE_%": 21.297,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_trainonly_fit_diagnostic": {
+          "MAE": 58.451,
+          "RMSE": 74.711,
+          "MAPE_%": 15.804,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "GradientBoosting": {
+        "val": {
+          "MAE": 61.786,
+          "RMSE": 84.539,
+          "MAPE_%": 20.912,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_trainonly_fit_diagnostic": {
+          "MAE": 56.056,
+          "RMSE": 71.381,
+          "MAPE_%": 15.159,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "XGBoost": {
+        "val": {
+          "MAE": 59.199,
+          "RMSE": 81.989,
+          "MAPE_%": 20.778,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_final_after_trainval_refit": {
+          "MAE": 54.794,
+          "RMSE": 69.2,
+          "MAPE_%": 14.782,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      }
+    },
+    "train_range": [
+      "2006-01-31",
+      "2026-05-07"
+    ],
+    "val_range": [
+      "2026-05-08",
+      "2026-07-06"
+    ],
+    "test_range": [
+      "2026-07-07",
+      "2026-09-04"
+    ]
+  },
+  "AB": {
+    "blood_group": "AB",
+    "best_model": "GradientBoosting",
+    "results": {
+      "Baseline_NaiveLag1": {
+        "val": {
+          "MAE": 44.483,
+          "RMSE": 54.561,
+          "MAPE_%": 64.328,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test": {
+          "MAE": 37.433,
+          "RMSE": 47.662,
+          "MAPE_%": 48.651,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "Baseline_MovingAvg7": {
+        "val": {
+          "MAE": 31.712,
+          "RMSE": 39.54,
+          "MAPE_%": 52.792,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test": {
+          "MAE": 27.731,
+          "RMSE": 33.898,
+          "MAPE_%": 37.339,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "RandomForest": {
+        "val": {
+          "MAE": 18.591,
+          "RMSE": 25.369,
+          "MAPE_%": 33.625,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_trainonly_fit_diagnostic": {
+          "MAE": 17.963,
+          "RMSE": 23.273,
+          "MAPE_%": 23.003,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "GradientBoosting": {
+        "val": {
+          "MAE": 17.229,
+          "RMSE": 23.912,
+          "MAPE_%": 31.452,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_final_after_trainval_refit": {
+          "MAE": 18.0,
+          "RMSE": 22.646,
+          "MAPE_%": 23.332,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "XGBoost": {
+        "val": {
+          "MAE": 17.881,
+          "RMSE": 24.248,
+          "MAPE_%": 31.661,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_trainonly_fit_diagnostic": {
+          "MAE": 17.308,
+          "RMSE": 22.281,
+          "MAPE_%": 22.862,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      }
+    },
+    "train_range": [
+      "2006-01-31",
+      "2026-05-07"
+    ],
+    "val_range": [
+      "2026-05-08",
+      "2026-07-06"
+    ],
+    "test_range": [
+      "2026-07-07",
+      "2026-09-04"
+    ]
+  },
+  "B": {
+    "blood_group": "B",
+    "best_model": "XGBoost",
+    "results": {
+      "Baseline_NaiveLag1": {
+        "val": {
+          "MAE": 212.367,
+          "RMSE": 264.334,
+          "MAPE_%": 61.399,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test": {
+          "MAE": 182.683,
+          "RMSE": 233.738,
+          "MAPE_%": 49.185,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "Baseline_MovingAvg7": {
+        "val": {
+          "MAE": 152.781,
+          "RMSE": 189.741,
+          "MAPE_%": 47.602,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test": {
+          "MAE": 132.731,
+          "RMSE": 160.974,
+          "MAPE_%": 34.458,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "RandomForest": {
+        "val": {
+          "MAE": 76.067,
+          "RMSE": 100.755,
+          "MAPE_%": 25.4,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_trainonly_fit_diagnostic": {
+          "MAE": 68.113,
+          "RMSE": 86.968,
+          "MAPE_%": 16.309,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "GradientBoosting": {
+        "val": {
+          "MAE": 77.836,
+          "RMSE": 100.615,
+          "MAPE_%": 24.674,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_trainonly_fit_diagnostic": {
+          "MAE": 67.707,
+          "RMSE": 86.772,
+          "MAPE_%": 16.307,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "XGBoost": {
+        "val": {
+          "MAE": 72.677,
+          "RMSE": 96.669,
+          "MAPE_%": 23.673,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_final_after_trainval_refit": {
+          "MAE": 67.083,
+          "RMSE": 86.261,
+          "MAPE_%": 16.064,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      }
+    },
+    "train_range": [
+      "2006-01-31",
+      "2026-05-07"
+    ],
+    "val_range": [
+      "2026-05-08",
+      "2026-07-06"
+    ],
+    "test_range": [
+      "2026-07-07",
+      "2026-09-04"
+    ]
+  },
+  "O": {
+    "blood_group": "O",
+    "best_model": "RandomForest",
+    "results": {
+      "Baseline_NaiveLag1": {
+        "val": {
+          "MAE": 346.1,
+          "RMSE": 448.04,
+          "MAPE_%": 62.975,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test": {
+          "MAE": 308.083,
+          "RMSE": 391.57,
+          "MAPE_%": 52.69,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "Baseline_MovingAvg7": {
+        "val": {
+          "MAE": 252.493,
+          "RMSE": 318.22,
+          "MAPE_%": 46.419,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test": {
+          "MAE": 221.993,
+          "RMSE": 274.348,
+          "MAPE_%": 35.91,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "RandomForest": {
+        "val": {
+          "MAE": 101.387,
+          "RMSE": 147.285,
+          "MAPE_%": 20.37,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_final_after_trainval_refit": {
+          "MAE": 100.43,
+          "RMSE": 131.625,
+          "MAPE_%": 15.499,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "GradientBoosting": {
+        "val": {
+          "MAE": 108.829,
+          "RMSE": 150.842,
+          "MAPE_%": 21.289,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_trainonly_fit_diagnostic": {
+          "MAE": 94.013,
+          "RMSE": 122.022,
+          "MAPE_%": 14.995,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      },
+      "XGBoost": {
+        "val": {
+          "MAE": 107.19,
+          "RMSE": 149.405,
+          "MAPE_%": 21.159,
+          "MAPE_excluded_zero_actuals": 0
+        },
+        "test_trainonly_fit_diagnostic": {
+          "MAE": 92.288,
+          "RMSE": 120.009,
+          "MAPE_%": 14.423,
+          "MAPE_excluded_zero_actuals": 0
+        }
+      }
+    },
+    "train_range": [
+      "2006-01-31",
+      "2026-05-07"
+    ],
+    "val_range": [
+      "2026-05-08",
+      "2026-07-06"
+    ],
+    "test_range": [
+      "2026-07-07",
+      "2026-09-04"
+    ]
+  }
+}

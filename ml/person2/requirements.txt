@@ -1,0 +1,7 @@
+# Exact versions used to build and validate this pipeline (Python 3.12.3).
+# Install with: pip install -r requirements.txt
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+xgboost==3.4.1
+joblib==1.5.3
