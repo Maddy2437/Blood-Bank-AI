@@ -47,29 +47,29 @@
       },
       "GradientBoosting": {
         "val": {
-          "MAE": 61.786,
-          "RMSE": 84.539,
-          "MAPE_%": 20.912,
+          "MAE": 60.812,
+          "RMSE": 83.57,
+          "MAPE_%": 20.677,
           "MAPE_excluded_zero_actuals": 0
         },
         "test_trainonly_fit_diagnostic": {
-          "MAE": 56.056,
-          "RMSE": 71.381,
-          "MAPE_%": 15.159,
+          "MAE": 56.141,
+          "RMSE": 72.118,
+          "MAPE_%": 15.154,
           "MAPE_excluded_zero_actuals": 0
         }
       },
       "XGBoost": {
         "val": {
-          "MAE": 59.199,
-          "RMSE": 81.989,
-          "MAPE_%": 20.778,
+          "MAE": 58.349,
+          "RMSE": 80.913,
+          "MAPE_%": 20.415,
           "MAPE_excluded_zero_actuals": 0
         },
         "test_final_after_trainval_refit": {
-          "MAE": 54.794,
-          "RMSE": 69.2,
-          "MAPE_%": 14.782,
+          "MAE": 54.59,
+          "RMSE": 69.836,
+          "MAPE_%": 14.841,
           "MAPE_excluded_zero_actuals": 0
         }
       }
@@ -135,29 +135,29 @@
       },
       "GradientBoosting": {
         "val": {
-          "MAE": 17.229,
-          "RMSE": 23.912,
-          "MAPE_%": 31.452,
+          "MAE": 17.265,
+          "RMSE": 23.805,
+          "MAPE_%": 31.485,
           "MAPE_excluded_zero_actuals": 0
         },
         "test_final_after_trainval_refit": {
-          "MAE": 18.0,
-          "RMSE": 22.646,
-          "MAPE_%": 23.332,
+          "MAE": 17.965,
+          "RMSE": 22.653,
+          "MAPE_%": 23.41,
           "MAPE_excluded_zero_actuals": 0
         }
       },
       "XGBoost": {
         "val": {
-          "MAE": 17.881,
-          "RMSE": 24.248,
-          "MAPE_%": 31.661,
+          "MAE": 17.858,
+          "RMSE": 24.193,
+          "MAPE_%": 31.687,
           "MAPE_excluded_zero_actuals": 0
         },
         "test_trainonly_fit_diagnostic": {
-          "MAE": 17.308,
-          "RMSE": 22.281,
-          "MAPE_%": 22.862,
+          "MAE": 17.441,
+          "RMSE": 22.277,
+          "MAPE_%": 23.117,
           "MAPE_excluded_zero_actuals": 0
         }
       }
@@ -223,29 +223,29 @@
       },
       "GradientBoosting": {
         "val": {
-          "MAE": 77.836,
-          "RMSE": 100.615,
-          "MAPE_%": 24.674,
+          "MAE": 77.847,
+          "RMSE": 100.575,
+          "MAPE_%": 24.597,
           "MAPE_excluded_zero_actuals": 0
         },
         "test_trainonly_fit_diagnostic": {
-          "MAE": 67.707,
-          "RMSE": 86.772,
-          "MAPE_%": 16.307,
+          "MAE": 68.379,
+          "RMSE": 88.163,
+          "MAPE_%": 16.42,
           "MAPE_excluded_zero_actuals": 0
         }
       },
       "XGBoost": {
         "val": {
-          "MAE": 72.677,
-          "RMSE": 96.669,
-          "MAPE_%": 23.673,
+          "MAE": 71.497,
+          "RMSE": 95.491,
+          "MAPE_%": 23.342,
           "MAPE_excluded_zero_actuals": 0
         },
         "test_final_after_trainval_refit": {
-          "MAE": 67.083,
-          "RMSE": 86.261,
-          "MAPE_%": 16.064,
+          "MAE": 68.613,
+          "RMSE": 87.835,
+          "MAPE_%": 16.501,
           "MAPE_excluded_zero_actuals": 0
         }
       }
@@ -311,29 +311,29 @@
       },
       "GradientBoosting": {
         "val": {
-          "MAE": 108.829,
-          "RMSE": 150.842,
-          "MAPE_%": 21.289,
+          "MAE": 109.391,
+          "RMSE": 151.492,
+          "MAPE_%": 21.314,
           "MAPE_excluded_zero_actuals": 0
         },
         "test_trainonly_fit_diagnostic": {
-          "MAE": 94.013,
-          "RMSE": 122.022,
-          "MAPE_%": 14.995,
+          "MAE": 94.417,
+          "RMSE": 123.196,
+          "MAPE_%": 14.913,
           "MAPE_excluded_zero_actuals": 0
         }
       },
       "XGBoost": {
         "val": {
-          "MAE": 107.19,
-          "RMSE": 149.405,
-          "MAPE_%": 21.159,
+          "MAE": 103.819,
+          "RMSE": 149.071,
+          "MAPE_%": 20.663,
           "MAPE_excluded_zero_actuals": 0
         },
         "test_trainonly_fit_diagnostic": {
-          "MAE": 92.288,
-          "RMSE": 120.009,
-          "MAPE_%": 14.423,
+          "MAE": 93.814,
+          "RMSE": 119.488,
+          "MAPE_%": 14.506,
           "MAPE_excluded_zero_actuals": 0
         }
       }
